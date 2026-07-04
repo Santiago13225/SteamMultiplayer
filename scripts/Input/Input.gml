@@ -1,6 +1,6 @@
 function get_controls(_local)
 {
-	if _local {
+	if _local {//if you are a local player, it will allow your inputs to affect the character
 	//Directions inputs
 	rightKey = keyboard_check(vk_right) ||keyboard_check(ord("D")) || gamepad_button_check( 0, gp_padr );
 	rightKey = clamp( rightKey, 0, 1 );

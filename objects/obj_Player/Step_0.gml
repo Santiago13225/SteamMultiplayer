@@ -1,5 +1,5 @@
 /// @description Movement & Actions based off of Input
-get_controls(isLocal)
+get_controls(isLocal)//has a boolean variable that determines all of the input 
 
 paddle_movement()
 
