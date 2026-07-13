@@ -8,7 +8,7 @@ lobbyMemberID = undefined
 
 character = undefined//if we need to reference the character of the server, whatever character the server is inheriting or controlling. we have this here just in case
 
-inbuf = buffer_create(16, buffer_grow, 1);
+inbuf = buffer_create(16, buffer_grow, 1);//create base in-buffer
 //we want to add ourselves to the player list
 playerList[0] = {//we are going to add ourselves to the first entry of the array
 	steamID : steamID,
